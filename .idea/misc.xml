@@ -1,0 +1,39 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/backgroundmain.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/backgroundsetting.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/nutnhan.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/sw_thumb_2.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/switch_thumb.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/switch_thump.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/switch_track.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/drawable/vien.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_dialog_anhsang.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_dialog_doam.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_dialog_doamdat.xml" value="0.11388888888888889" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_dialog_nhietdo.xml" value="0.2" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/activity_setup_wifi.xml" value="0.2" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/layout/caidat.xml" value="0.25" />
+        <entry key="..\:/Users/vui/AndroidStudioProjects/hethongnhakinhIOT/app/src/main/res/menu/menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

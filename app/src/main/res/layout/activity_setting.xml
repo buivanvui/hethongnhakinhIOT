@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundsetting">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/vien"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cài đặt nhiệt độ:"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/cainhietdo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/txt1"
+            android:layout_marginLeft="-200dp">
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/vien"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/r1">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cài đặt độ ẩm :"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/caidoam"
+            android:layout_width="100dp"
+            android:inputType="number"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/txt3"
+            android:layout_marginLeft="-200dp">
+        </EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/vien"
+        android:layout_below="@+id/r2">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cài đặt độ ẩm đất:"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/caidoamdat"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/txt2"
+            android:layout_marginLeft="-200dp"
+            android:textColor="@color/black"></EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/vien"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/r3">
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cài đặt ánh sáng:"
+            android:textColor="@color/black"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/caianhsang"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/txt4"
+            android:layout_marginLeft="-200dp">
+        </EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/r4"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/nutnhan"
+            android:text="Đồng ý"></Button>
+    </RelativeLayout>
+
+
+</RelativeLayout>

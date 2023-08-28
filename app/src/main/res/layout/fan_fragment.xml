@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22999999"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/rooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Fan"
+        android:textColor="@color/black" />
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rooms"
+        android:layout_height="120dp">
+
+        <RelativeLayout
+            android:id="@+id/a5"
+            android:layout_width="2in"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/vien">
+            <LinearLayout
+                android:id="@+id/r6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/r1"
+                android:layout_toRightOf="@+id/imageView">
+                <TextView
+                    android:id="@+id/mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chế độ"
+                    android:textColor="@color/black" />
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/swcontrol"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/mode"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textOff="man"
+                    android:textOn="auto"
+                    app:showText="true"
+                    app:switchMinWidth="60dp"
+                    app:thumbTint="@drawable/sw_thumb_2"
+                    app:trackTint="@color/date_color"></androidx.appcompat.widget.SwitchCompat>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitCenter"
+                android:background="#28FFFFFF"/>
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imageView">
+            <TextView
+                android:id="@+id/txt_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                />
+            <LinearLayout
+                android:id="@+id/r2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/txt_speed"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/minus"
+                    android:backgroundTint="#3F51B5"/>
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/speed"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:valueFrom="0"
+                    android:valueTo="3"
+                    android:stepSize="1"
+                    app:thumbColor="#03F4C4"
+                    app:trackColorActive="#6D33FFB8"
+                    android:layout_marginLeft="8dp"/>
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/add"
+                    android:backgroundTint="#E91E63"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r3">
+
+        <RelativeLayout
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/vien">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Thông số cài đặt nhiệt độ:"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-100dp"
+                android:layout_toRightOf="@+id/txt1"
+                android:textColor="@color/black"
+                android:textSize="22dp"></TextView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

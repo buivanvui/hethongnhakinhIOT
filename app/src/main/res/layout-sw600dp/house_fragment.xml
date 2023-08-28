@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/rooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Rooms"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/rooms"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/a7"
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/vien">
+
+            <TextView
+                android:id="@+id/livingroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imgbtn_livingroom"
+                android:text="Living room"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/nhietdo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/livingroom"
+                android:layout_toEndOf="@+id/imgbtn_livingroom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18dp"
+                android:text="20 ℃"
+                android:textColor="@color/black" />
+            <ImageButton
+                android:id="@+id/imgbtn_livingroom"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/living_room" />
+            <ImageView
+                android:id="@+id/img_light"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/livingroom"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/nhietdo"
+                android:background="@drawable/count_light"/>
+
+            <TextView
+                android:id="@+id/count_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/livingroom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@+id/img_light"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <ImageView
+                android:id="@+id/img_fan"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/img_light"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/nhietdo"
+                android:background="@drawable/turbo"/>
+
+            <TextView
+                android:id="@+id/count_fan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_light"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@+id/img_fan"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/a8"
+            android:layout_width="1.2in"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/vien">
+
+            <TextView
+                android:id="@+id/outside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/imgbtn_outside"
+                android:text="Outside"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/nhietdo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/outside"
+                android:layout_toEndOf="@+id/imgbtn_outside"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="20 ℃"
+                android:textSize="18dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/doam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nhietdo1"
+                android:layout_toEndOf="@+id/imgbtn_outside"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="40 %"
+                android:textSize="18dp"
+                android:textColor="@color/black" />
+            <ImageView
+                android:id="@+id/img_light1"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/outside"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/nhietdo1"
+                android:background="@drawable/count_light"/>
+
+            <TextView
+                android:id="@+id/count_light1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/outside"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@+id/img_light1"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <ImageButton
+                android:id="@+id/imgbtn_outside"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/park" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
